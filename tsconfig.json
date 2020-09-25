@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es6",
+        "lib": [
+            "ES5", "ES6", "ES7","ES2017","ES2018","DOM","ESNext","ESNext.AsyncIterable"
+        ],
+        "sourceMap": true,
+        "allowJs": false,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "rootDirs": [
+            "src"
+        ],
+        "forceConsistentCasingInFileNames": false,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "alwaysStrict": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "files": [
+        "src/types/types.ts"
+    ]
+}
